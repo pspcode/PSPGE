@@ -1,0 +1,22 @@
+any shader was registered yet
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+social networks: @pspcode
+read the readme.MD file!
+
+- ####### @pcode ############ - 
+
+Properties: 
+
+@version: 1.0
+@name: PSP Code 
+@author: Suffler Engine
+
+Frameworks:
+
+for graphics: @OpenGL (org.opengl)
+for sound: @OpenAL (org.openal)
+for math: @JOML (...)
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

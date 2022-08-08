@@ -1,0 +1,7 @@
+# Package PSP Code API Explanation
+
+$resources = all resources of your application
+$shaders = the shaders of your application
+$sounds = audio/music resources of you application
+$sprites = the spritesheets of your application
+$tiles = (available only in 2D Applications)
