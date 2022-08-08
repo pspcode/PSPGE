@@ -9,6 +9,7 @@ import static org.lwjgl.system.MemoryStack.*;
 import static org.lwjgl.system.libc.LibCStdlib.free;
 
 public class Sound {
+	
     private int bufferId;
     private int sourceId;
     private String filepath;
