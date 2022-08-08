@@ -1,4 +1,4 @@
-package pspcode.com.screen;
+package pspcode.com.lwjgl;
 
 public class AppConfig {
 	
