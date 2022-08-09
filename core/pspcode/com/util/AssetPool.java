@@ -97,7 +97,7 @@ public class AssetPool {
 	
 	/**
 	 * 
-	 * Loops are enabled in this method
+	 * Loops are selectable in this method
 	 * 
 	 * @param filepath is the path where your list of
 	 * <list>sounds will try to find and load the contents of this sound
