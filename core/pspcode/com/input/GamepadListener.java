@@ -5,11 +5,11 @@ public class GamepadListener {
 	
 	/**
 	 * 14 buttons by default to press. 
-	 * The amount of buttons vary from gamepad to gamepad.
+	 * The amount of buttons can vary from gamepad to gamepad.
 	 		* 
 	 		* 	
-	 		* -> DualShock4 has 11 buttons to press
-	 		* -> Ipega has 12 buttons to press
+	 		* gamepad list:
+			* [Xbox] [Ipega] [DualShock4]
 	 		* 	
 	 		* 	
 	 		*
