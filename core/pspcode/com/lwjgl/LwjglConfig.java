@@ -1,12 +1,12 @@
 package pspcode.com.lwjgl;
 
-public class AppConfig {
+public class LwjglConfig {
 	
 	private int width, height;
 	
 	private String title;
 
-	public AppConfig(int width, int height, String title) {
+	public LwjglConfig(int width, int height, String title) {
 		this.width = width;
 		this.height = height;
 		this.title = title;

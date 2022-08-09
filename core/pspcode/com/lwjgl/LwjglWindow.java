@@ -21,11 +21,11 @@ public class LwjglWindow {
 	private long window;
 	
 	// AppConfig (configuration for the window)
-	private AppConfig config;
+	private LwjglConfig config;
 	
 	/** LwjglWindow
 	 * @param config is the window configuration to runs it		 */
-	public LwjglWindow(AppConfig config) {
+	public LwjglWindow(LwjglConfig config) {
 		this.config = config;
 		run(config.getWidth(), config.getHeight(), config.getTitle());
 	}

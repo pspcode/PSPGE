@@ -12,10 +12,16 @@ public class Sound {
 	
     private int bufferId;
     private int sourceId;
+    
     private String filepath;
 
     private boolean isPlaying = false;
 
+    /**
+     * 
+     * @param filepath is the path where your file will be found
+     * @param loops activates sound repetition throughout the application
+     */
     public Sound(String filepath, boolean loops) {
         this.filepath = filepath;
 
