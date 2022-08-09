@@ -42,5 +42,6 @@ public class GamepadListener {
 		public boolean isPressed(int gmpKey) {
 			return gamepadButtonPressed[gmpKey];
 		}
-	}*//
+	}*/
 }
+// DualShock4 is disabled at moment
