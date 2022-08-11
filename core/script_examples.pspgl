@@ -1,31 +1,4 @@
-'.pspgl' file is a script file that will be implemented in [Suffler Engine.](https://github.com/sufflerengine/SufflerEngine)
-
-for loop:
-```pspgl
-        // it always start in 0
-for (val i, i [operator] 10, i++) {
-    printLine(i)
-} 
-// the result will be
-/*1
-* 2
-* 3
-* 4
-* 5
-* 6
-* 7
-* 8
-* 9
-* 11  */
-```pspgl
-
-if condition:
-```java
-if (boolean condition) {
-
-}
-bool f = true;
-if (bool) {
-
-}
+```pspge 
+// Hello World in PSPGE
+printLine("Hello World!")
 ```
