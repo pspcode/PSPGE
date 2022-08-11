@@ -4,6 +4,10 @@ import org.lwjgl.glfw.*;
 import org.lwjgl.opengl.*;
 import org.lwjgl.system.*;
 
+import pspcode.com.event.observer.Observer;
+import pspcode.com.event.Event;
+import org.pspcode.com.components.GameObject;
+
 import pspcode.com.input.KeyboardListener;
 import pspcode.com.input.MouseListener;
 import pspcode.com.physics2d.Physics2D;
@@ -18,7 +22,7 @@ import static org.lwjgl.opengl.GL11.*;
 import static org.lwjgl.system.MemoryStack.*;
 import static org.lwjgl.system.MemoryUtil.*;
 
-public class LwjglWindow {
+public class LwjglWindow implements Observer {
 
 	// The window handle
 	private long window;
@@ -130,6 +134,11 @@ public class LwjglWindow {
 	
 	public static Physics2D getPhysics() { return currentScene.getPhysics(); }
 	
+	@Override
+	public void onNotify(GameObject obj, Event event) {
+			
+	}
+	
 	public int getWidth() {
 		return config.getWidth();
 	}
@@ -146,7 +155,8 @@ public class LwjglWindow {
 		if (currentScene != null) {
 	        currentScene.destroy();
 	    }
-
+		// if scene is NOT equals null
+		// initialize the scene
 	        currentScene = new Scene(sceneInitializer);
 	        currentScene.load();
 	        currentScene.init();
@@ -154,7 +164,7 @@ public class LwjglWindow {
 	}
 
 	public static Scene getScene() {
-        return currentScene;
+      	  return currentScene;
     }
 
 }
