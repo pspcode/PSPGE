@@ -1,0 +1,13 @@
+about window
+
+to init:
+
+import pspcode.com.lwjgl.LwjglWindow;
+import pspcode.com.lwjgl.LwjglConfig;
+
+public class WindowInitializer {
+  
+  public static void main(String[] args) {
+    new LwjglWindow(new LwjglConfig(600, 600, "title");
+  }
+}
