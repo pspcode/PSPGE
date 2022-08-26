@@ -72,29 +72,6 @@ public class BasicGame extends Application {
     }
 }
 ```
-❓ **Frequently Asked Questions**
-
- - how do all application class method work?
- 
-**onStart( )**      
-This method is called only once in your entire application,
-because it is responsible for initializing objects, textures, models....   
-
-  
-**render( )**       
-This method is called every frame of your application, be careful what you put here! 
-if you put something that takes action too quickly this can crash your application. 
-
-  
-**free( )**          
-this method is responsible for releasing all the memory of your application
-put in it all the methods of 'dipose' of its textures....
-
-- *more FREQUENTLY ASKED QUESTIONS on our discord server.*
-
-# ⚙️ Installation
-
-Coming soon...
  
 # 💰 Donates Pathways
 
